@@ -1,0 +1,1443 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("./fonts/NotoSansKR-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+.homepage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homepage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.click1 {
+	font-size: 1.2vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	letter-spacing: 0.02vw;
+	position: fixed;
+	top: 2.5vh;
+	left: 47.7vw;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+.click1 a:hover {
+	color: white;
+	opacity: 0.8;
+	font-size: 1.25vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.click2 {
+	font-size: 1.2vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	letter-spacing: 0.02vw;
+	position: fixed;
+	left: 47vw;
+	top: 25vh;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+.click2 a:hover {
+	color: white;
+	opacity: 0.8;
+	font-size: 1.25vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.click3 {
+	font-size: 1.2vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	letter-spacing: 0.02vw;
+	position: fixed;
+	left: 46.9vw;
+	top: 51vh;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+.click3 a:hover {
+	color: white;
+	opacity: 0.8;
+	font-size: 1.25vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.click4 {
+	font-size: 1.2vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	letter-spacing: 0.02vw;
+	position: fixed;
+	left: 47vw;
+	top: 75.4vh;
+	text-shadow: 2px 2px 2px black;
+	color: white;
+}
+
+.click4 a:hover {
+	color: white;
+	opacity: 0.8;
+	font-size: 1.25vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+footer {
+	position: fixed;
+	bottom: 46.5vh;
+	left: 2vw;
+	font-size: 0.7vw;
+	color: white;
+	opacity: 0.7;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+/*<올라가는>*/
+/*[올라가는1]*/
+.woodlibraryimage {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.woodlibraryimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.woodlibrarytext {
+	position: fixed;
+	left: 18.2vw;
+	bottom: 45vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 1.8vw;
+	word-spacing: 0.13vw;
+}
+
+.woodlibrarytext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.woodlibrarytext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.woodlibrarytext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[올라가는2]*/
+.outlibraryimage {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.outlibraryimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outlibrarytx {
+	position: fixed;
+	left: 23.3vw;
+	bottom: 21vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 1.8vw;
+	word-spacing: 0.13vw;
+}
+
+.outlibrarytx a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarytx a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarytx a:hover {
+ 	color: white;
+ 	opacity: 0.8;
+ 	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+/*[올라가는3]*/
+.outscienceimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.outscienceimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outsciencetx {
+	position: fixed;
+	left: 23.8vw;
+	bottom: 22vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 1.5px black;
+	text-align: center;
+	line-height: 1.8vw;
+	word-spacing: 0.13vw;
+}
+
+.outsciencetx a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outsciencetx a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outsciencetx a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*<내려가는>*/
+/*[내려가는1]*/
+.mixscienceimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mixscienceimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mixsciencetext {
+	position: fixed;
+	bottom: 40.7vh;
+	left: 23.4vw;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+	line-height: 1.7vw;
+	word-spacing: 0.13vw;
+}
+
+.mixsciencetext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.mixsciencetext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.mixsciencetext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[내려가는2]*/
+.inscienceimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.inscienceimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.insciencetext {
+	position: fixed;
+	left: 22vw;
+	bottom: 34.6vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 1.7vw;
+	word-spacing: 0.13vw;
+}
+
+.insciencetext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.insciencetext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.insciencetext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[어두운사선계단1]*/
+.fiftystairimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fiftystairimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fiftystairtext {
+	position: absolute;
+	left: 19vw;
+	bottom: 89vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 1.7vw;
+	word-spacing: 0.13vw;
+}
+
+.fiftystairtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.fiftystairtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.fiftystairtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[밝은사선계단2]*/
+.nuristairimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.nuristairimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nuristairtext {
+	position: fixed;
+	left: 17.8vw;
+	bottom: 92vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 1.7vw;
+	word-spacing: 0.13vw;
+}
+
+.nuristairtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nuristairtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nuristairtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[대비있는갈라진계단1]*/
+.twostairimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.twostairimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.twostairtext {
+	position: fixed;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	line-height: 1.7vw;
+	writing-mode: vertical-lr;
+	left: 50.2vw;
+	top: 2vh;
+	word-spacing: 0.13vw;
+}
+
+.twostairtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostairtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostairtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[밝은갈라진계단2]*/
+.twostair1img {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.twostair1img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.twostair1text {
+	position: fixed;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	line-height: 1.7vw;
+	writing-mode: vertical-lr;
+	left: 47.2vw;
+	top: 1.6vh;
+	word-spacing: 0.1vw;
+}
+
+.twostair1text a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair1text a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.twostair1text a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+
+/*<정면사진>*/
+/*[반반계단]*/
+.halfstairimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.halfstairimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.halfstair1text {
+	position: fixed;
+	left: 14.5vw;
+	bottom: 46.5vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 1.8vw;
+	word-spacing: 0.13vw;
+}
+
+.halfstair1text a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair1text a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair1text a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.halfstair2text {
+	position: fixed;
+	left: 50.8vw;
+	bottom:48.2vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	line-height: 1.8vw;
+	word-spacing: 0.13vw;
+}
+
+.halfstair2text a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair2text a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.halfstair2text a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[8각형석재계단]*/
+.outlibrarystandimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.outlibrarystandimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outlibrarystandtext {
+	position: fixed;
+	left: 17.5vw;
+	bottom:46vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 1.7vw;
+	word-spacing: 0.13vw;
+}
+
+.outlibrarystandtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystandtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.outlibrarystandtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[점자블록]*/
+.circlepadimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.circlepadimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circlepadtext {
+	position: fixed;
+	left: 18vw;
+	bottom: 48.5vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	text-align: center;
+	line-height: 1.7vw;
+}
+
+.circlepadtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.circlepadtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.circlepadtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[난간]*/
+.railingimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.railingimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.railingtext {
+	position: fixed;
+	left: 49.3vw;
+	bottom: 7vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	line-height: 1.6vw;
+	writing-mode: vertical-rl;
+	word-spacing: 0.1vw;
+}
+
+.railingtext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.railingtext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.railingtext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+/*[논슬립]*/
+.nonslipimg {
+	display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.nonslipimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nonsliptext {
+	position: fixed;
+	left: 12vw;
+	top: 1vh;
+	font-size: 0.93vw;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	text-shadow: 2.5px 2.5px 2px black;
+	letter-spacing: 0.08vw;
+	word-spacing: -0.59vw;
+	line-height: 1.4vw;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+}
+
+.nonsliptext a:link {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nonsliptext a:visited {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+}
+
+.nonsliptext a:hover {
+	color: white;
+	font-family: NotoSansKR;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+.home {
+	display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+	* {
+		word-break: keep-all;
+	}
+
+	.homepage {
+		display: none;
+	}
+
+	.home {
+    display: block;
+    height:100svh;
+    width: 100vw;
+  }
+
+  .home img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .click1 {
+  	position: fixed;
+  	left: 43.1vw;
+    top: 2vh;
+  }
+
+  .click2 {
+  	position: fixed;
+  	left: 42vw;
+    top: 25.3vh;
+  }
+
+  .click3 {
+  	position: fixed;
+  	left: 41vw;
+    top: 51.5vh;
+  }
+
+  .click4 {
+    position: fixed;
+  	left: 39.8vw;
+    top: 76vh;
+    /*transform: translateX(-50%);*/
+  }
+
+  .click a {
+    font-size: 16px;
+  }
+
+  .click a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  footer {
+  	position: fixed;
+  	left: 50.5vw;
+    top: 96vh;
+    transform: translateX(-50%);
+	  font-size: 10.3px;
+	  color: black;
+	  font-family: NotoSansKR;
+	  font-weight: 600;
+  }
+
+  .woodlibrary {
+		display: none;
+	}
+
+	.wood {
+    display: block;
+    height:100svh;
+    width: 100vw;
+  }
+
+  .wood img {
+    width: 100vw;
+    height: 100;
+    object-fit: cover;
+  }
+
+  .woodlibrarytext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 50vh;
+  	transform: translate(-50%, -50%);    
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;  
+  }
+
+   .woodlibrarytext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .outlibrary {
+		display: none;
+	}
+
+	.estone {
+    display: block;
+    height:100svh;
+    width: 100vw;
+  }
+
+  .estone img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .outlibrarytx {
+  	position: fixed;
+  	left: 50vw;
+  	top: 50vh;
+  	transform: translateX(-50%);    
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;  
+  }
+
+   .outlibrarytx a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .out {
+    display: block;
+    height:100svh;
+    width: 100vw;
+  }
+
+  .outscience {
+		display: none;
+	}
+
+  .out img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .outsciencetx {
+  	position: fixed;
+  	left: 50vw;
+  	top: 54.2vh;
+  	transform: translateX(-50%);    
+  	color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;   
+  }
+
+   .outsciencetx a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .mixscience {
+  	display: none;
+  }
+
+  .down {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .down img {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  }
+
+  .mixsciencetext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 58vh;
+  	transform: translateX(-50%);    
+  	color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;   
+  }
+
+  .mixsciencetext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+
+  .inscience {
+  	display: none;
+  }
+
+  .dark {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .dark img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .insciencetext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 64vh;
+  	transform: translateX(-50%);    
+  	color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;  
+  }
+
+  .insciencetext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+
+  .fiftystair {
+  	display: none;
+  }
+
+  .black {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .black img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .fiftystairtext {
+  	position: fixed;
+  	left: 45.2vw;
+  	bottom: 5vh;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  writing-mode: vertical-rl;
+	  word-spacing: 1vw;
+	  letter-spacing: 0.1vw;
+  }
+
+  .fiftystairtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 500; 
+  }
+
+  .nuristair {
+  	display: none;
+  }
+
+  .gray {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .gray img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .nuristairtext {
+  	position: fixed;
+  	left: 45.2vw;
+  	bottom: 10vh;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  writing-mode: vertical-rl;
+	  word-spacing: 1vw;
+	  letter-spacing: 0.1vw;    
+  }
+
+  .nuristairtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .twostair {
+  	display: none;
+  }
+
+  .orange {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .orange img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .twostairtext {
+  	position: fixed;
+  	left: 53vw;
+  	bottom: 5vh;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  writing-mode: vertical-rl;
+	  word-spacing: 1vw;
+	  letter-spacing: 0.1vw;  
+  }
+
+  .twostairtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .twostair1 {
+  	display: none;
+  }
+
+  .light {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .light img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .twostair1text {
+  	position: fixed;
+  	left: 53vw;
+  	bottom: 5vh;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  writing-mode: vertical-rl;
+	  word-spacing: 1vw;
+	  letter-spacing: 0.1vw; 
+  }
+
+  .twostair1text a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .halfstair {
+  	display: none;
+  }
+
+  .two {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .two img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .halfstair1text {
+  	position: fixed;
+  	writing-mode: vertical-lr;
+  	left: 80vw;
+  	top: 13vh;    
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500; 
+  }
+
+  .halfstair1text a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .halfstair2text {
+  	position: fixed;
+  	writing-mode: vertical-lr;
+  	white-space: nowrap;
+  	left: 80vw;
+  	top: 52.5vh;    
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500; 
+  }
+
+  .halfstair2text a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+
+  .outlibrarystand {
+  	display: none;
+  }
+
+  .frontstone {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .frontstone img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .outlibrarystandtext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 42vh;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  letter-spacing: 0.1vw; 
+  }
+
+  .outlibrarystandtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+
+  .circlepad {
+  	display: none;
+  }
+
+  .circle {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .circle img {
+  	width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
+  }
+
+  .circlepadtext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 42vh;
+  	transform: translateX(-50%); 
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  letter-spacing: 0.1vw;  
+  }
+
+  .circlepadtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400;
+  }
+
+  .railing {
+  	display: none;
+  }
+
+  .rail {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .rail img {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  }
+
+  .railingtext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 45vh;
+  	transform: translateX(-50%); 
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  letter-spacing: 0.1vw;
+	  writing-mode: horizontal-tb;
+	  text-align: center;  
+  }
+
+  .railingtext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  ffont-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+
+  .nonslip {
+  	display: none;
+  }
+
+  .slip {
+  	display: block;
+  	height:100svh;
+    width: 100vw;
+  }
+
+  .slip img {
+  	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  }
+
+  .nonsliptext {
+  	position: fixed;
+  	left: 50vw;
+  	top: 98.3vw;
+  	transform: translateX(-50%);
+  	color: white;
+    font-size: 12.3px;
+    line-height: 22px;
+    font-family: NotoSansKR;
+	  font-weight: 500;
+	  letter-spacing: 0.1vw;
+	  writing-mode: horizontal-tb;
+	  text-align: center;
+  }
+
+  .nonsliptext a:hover{
+  	color: white;
+	  opacity: 0.8;
+	  font-family: NotoSansKR;
+	  font-weight: 400; 
+  }
+}
